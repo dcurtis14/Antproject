@@ -1,6 +1,8 @@
-   class Antproject {
-    public static void main(String[] args) {
-  int ants = 4;
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+  int ants = 5;
 
   if(ants == 4)
   {
@@ -11,10 +13,15 @@
 
       System.out.println("My question about ant hill");
       String question = scan.next();
-          question += Scan.nextline();
+          question += scan.nextLine();
 
           System.out.println("Hey"+ question);
-
+          
+for(int count = 1; count <= 4; count++)
+     {
+        System.out.println(count);
+      
         }
       }
-   }
+  }
+}
