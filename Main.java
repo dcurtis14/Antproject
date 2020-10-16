@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 class Main {
   public static void main(String[] args) {
+    //i added my interger for ants as 5
   int ants = 5;
 
   if(ants == 4)
@@ -17,7 +18,7 @@ class Main {
 
           System.out.println("Hey"+ question);
           
-for(int count = 1; count <= 4; count++)
+for(int count = 1; count <= 9; count++)
      {
         System.out.println(count);
       
