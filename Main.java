@@ -6,6 +6,12 @@
   {
     System.out.println("There are 4 ants.");
   }else{
-    System.out.println("There are not 4 ants.")
+    System.out.println("There are not 4 ants.");
 Scanner scan = new Scanner (System.in);
-String name = scan.next():
+
+System.out.println("My question about ant hill");
+String question = scan.next();
+question += Scan.nextline();
+
+System.out.println("Hey"+ question);
+
